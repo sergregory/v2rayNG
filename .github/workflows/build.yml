@@ -96,6 +96,13 @@ jobs:
     - name: Setup Android environment
       uses: android-actions/setup-android@v3
 
+    - name: Decode v2ray config
+      uses: timheuer/base64-to-file@v1
+      id: v2ray_config
+      with:
+        fileName: "V2rayNG/app/src/main/assets/v2ray_config.json"
+        encodedString: ${{ secrets.V2RAYCONFIG_JSON }}
+
     - name: Decode Keystore
       uses: timheuer/base64-to-file@v1
       id: android_keystore
