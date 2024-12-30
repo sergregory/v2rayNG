@@ -100,7 +100,8 @@ jobs:
       uses: timheuer/base64-to-file@v1
       id: v2ray_config
       with:
-        fileName: "V2rayNG/app/src/main/assets/v2ray_config.json"
+        fileName: 'v2ray_config.json'
+        fileDir: ${{ github.workspace }}/V2rayNG/app/src/main/assets/
         encodedString: ${{ secrets.V2RAYCONFIG_JSON }}
 
     - name: Decode Keystore
