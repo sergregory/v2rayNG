@@ -8,7 +8,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="migration_success">Data migration success!</string>
     <string name="migration_fail">Data migration failed!</string>
-    <string name="default_subscription_url">dmxlc3M6Ly9hMmJiNDg0Ny0xMzRlLTRmY2EtYTczMi1mMGQ2YzkzZjM0YzVAOTUuMjE3LjE4NS4xNTQ6NDQzP3R5cGU9dGNwJnNlY3VyaXR5PXJlYWxpdHkmcGJrPXdUWVl1d09qbTR5bTdiNEhMWkdGUzhvOVdPQXVyV2Q0Vi1QOUpsU2pVQWcmZnA9Y2hyb21lJnNuaT1tYWlsLnZveGVscmFkLmNvbS5hdSZzaWQ9MzUmc3B4PSUyRiZmbG93PXh0bHMtcnByeC12aXNpb24jdmxlc3MteHRscy1yZWFsaXR5LWJvYmtvdnlfdHZfdmxlc3MK</string>
+    <string name="default_subscription_url">__SUBSCRIPTION_URL__</string>
     <string name="default_subscription_name">gserebry</string>
 
     <!-- Notifications -->
